@@ -1,0 +1,14 @@
+{
+  "mcnemar_p": 0.0035271080283056627,
+  "bootstrap_ci_95": [
+    0.012034842075102688,
+    0.03392964409473336
+  ],
+  "macro_f1_delta": 0.023055333806332623,
+  "agreement": {
+    "both_correct": 4798,
+    "both_wrong": 627,
+    "only_tfidf": 345,
+    "only_bert": 427
+  }
+}
