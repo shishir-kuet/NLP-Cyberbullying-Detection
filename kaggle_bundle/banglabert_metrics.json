@@ -1,0 +1,108 @@
+{
+  "val": {
+    "model": "BanglaBERT",
+    "split": "val",
+    "accuracy": 0.8383088591253832,
+    "macro_f1": 0.8270905488992982,
+    "weighted_f1": 0.8388732182542354,
+    "per_class": {
+      "Neutral": {
+        "precision": 0.8751,
+        "recall": 0.8606,
+        "f1": 0.8678,
+        "support": 2109
+      },
+      "Harassment": {
+        "precision": 0.7676,
+        "recall": 0.7869,
+        "f1": 0.7771,
+        "support": 1511
+      },
+      "Sexual Aggression": {
+        "precision": 0.8139,
+        "recall": 0.8216,
+        "f1": 0.8178,
+        "support": 1267
+      },
+      "Hate Speech": {
+        "precision": 0.9256,
+        "recall": 0.8995,
+        "f1": 0.9124,
+        "support": 1065
+      },
+      "Violent Extremism": {
+        "precision": 0.7385,
+        "recall": 0.7837,
+        "f1": 0.7604,
+        "support": 245
+      }
+    }
+  },
+  "test": {
+    "model": "BanglaBERT",
+    "split": "test",
+    "accuracy": 0.8421817008229788,
+    "macro_f1": 0.83390035103935,
+    "weighted_f1": 0.8428653460892774,
+    "per_class": {
+      "Neutral": {
+        "precision": 0.8818,
+        "recall": 0.8425,
+        "f1": 0.8617,
+        "support": 2108
+      },
+      "Harassment": {
+        "precision": 0.767,
+        "recall": 0.7975,
+        "f1": 0.782,
+        "support": 1511
+      },
+      "Sexual Aggression": {
+        "precision": 0.8288,
+        "recall": 0.836,
+        "f1": 0.8324,
+        "support": 1268
+      },
+      "Hate Speech": {
+        "precision": 0.9243,
+        "recall": 0.9165,
+        "f1": 0.9204,
+        "support": 1066
+      },
+      "Violent Extremism": {
+        "precision": 0.7283,
+        "recall": 0.8238,
+        "f1": 0.7731,
+        "support": 244
+      }
+    }
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.9452009329621771,
+      "val_macro_f1": 0.7955,
+      "sec": 195.8
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.5021114967417268,
+      "val_macro_f1": 0.8271,
+      "sec": 200.1
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.3837275094047716,
+      "val_macro_f1": 0.8269,
+      "sec": 200.3
+    }
+  ],
+  "config": {
+    "model": "csebuetnlp/banglabert",
+    "max_len": 128,
+    "batch": 32,
+    "epochs": 3,
+    "lr": 2e-05,
+    "best_val_macro_f1": 0.8270905488992982
+  }
+}
