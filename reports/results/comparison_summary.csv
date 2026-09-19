@@ -1,0 +1,3 @@
+model,accuracy,macro_f1,weighted_f1,macro_f1_clean,f1 Neutral,f1 Harassment,f1 Sexual Aggression,f1 Hate Speech,f1 Violent Extremism
+TF-IDF + LogReg,0.8299,0.8121,0.8301,0.8019,0.8569,0.7666,0.8321,0.8916,0.7135
+BanglaBERT,0.8431,0.8352,0.8438,0.8265,0.8628,0.7823,0.8329,0.9218,0.7761

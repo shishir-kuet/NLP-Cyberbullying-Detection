@@ -1,0 +1,16 @@
+{
+  "label2id": {
+    "Neutral": 0,
+    "Harassment": 1,
+    "Sexual Aggression": 2,
+    "Hate Speech": 3,
+    "Violent Extremism": 4
+  },
+  "id2label": {
+    "0": "Neutral",
+    "1": "Harassment",
+    "2": "Sexual Aggression",
+    "3": "Hate Speech",
+    "4": "Violent Extremism"
+  }
+}

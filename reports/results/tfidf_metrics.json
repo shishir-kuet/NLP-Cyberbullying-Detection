@@ -1,0 +1,84 @@
+{
+  "val": {
+    "model": "TF-IDF(char25,C=1.0)+LogReg",
+    "split": "val",
+    "accuracy": 0.8276585444569953,
+    "macro_f1": 0.8098299855698757,
+    "weighted_f1": 0.8273579590176465,
+    "per_class": {
+      "Neutral": {
+        "precision": 0.8469,
+        "recall": 0.871,
+        "f1": 0.8588,
+        "support": 2109
+      },
+      "Harassment": {
+        "precision": 0.7808,
+        "recall": 0.7426,
+        "f1": 0.7612,
+        "support": 1511
+      },
+      "Sexual Aggression": {
+        "precision": 0.8175,
+        "recall": 0.8311,
+        "f1": 0.8243,
+        "support": 1267
+      },
+      "Hate Speech": {
+        "precision": 0.8974,
+        "recall": 0.8789,
+        "f1": 0.888,
+        "support": 1065
+      },
+      "Violent Extremism": {
+        "precision": 0.6962,
+        "recall": 0.7388,
+        "f1": 0.7168,
+        "support": 245
+      }
+    }
+  },
+  "test": {
+    "model": "TF-IDF(char25,C=1.0)+LogReg",
+    "split": "test",
+    "accuracy": 0.8299177021139261,
+    "macro_f1": 0.8121291033790976,
+    "weighted_f1": 0.8301243149216929,
+    "per_class": {
+      "Neutral": {
+        "precision": 0.8519,
+        "recall": 0.862,
+        "f1": 0.8569,
+        "support": 2108
+      },
+      "Harassment": {
+        "precision": 0.7702,
+        "recall": 0.7631,
+        "f1": 0.7666,
+        "support": 1511
+      },
+      "Sexual Aggression": {
+        "precision": 0.8377,
+        "recall": 0.8265,
+        "f1": 0.8321,
+        "support": 1268
+      },
+      "Hate Speech": {
+        "precision": 0.8997,
+        "recall": 0.8837,
+        "f1": 0.8916,
+        "support": 1066
+      },
+      "Violent Extremism": {
+        "precision": 0.6803,
+        "recall": 0.75,
+        "f1": 0.7135,
+        "support": 244
+      }
+    }
+  },
+  "best_config": {
+    "features": "char25",
+    "C": 1.0
+  }
+}

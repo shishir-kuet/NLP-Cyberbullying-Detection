@@ -1,0 +1,5 @@
+# model weights (~420 MB) — GitHub rejects files over 100 MB
+app/cyberbullying_model/
+*.zip
+.venv/
+__pycache__/
