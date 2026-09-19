@@ -1,0 +1,7 @@
+gradio
+transformers>=5.0          # model was saved with transformers 5.0.0
+scikit-learn==1.6.1        # must match the version that pickled tfidf_logreg.joblib
+joblib
+pandas
+git+https://github.com/csebuetnlp/normalizer
+# torch: install the CPU build separately, see README.md
